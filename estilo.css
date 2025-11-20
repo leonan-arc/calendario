@@ -29,7 +29,7 @@ header {
     text-align: center;
 }
 
-/* Clock */
+/* Relogio */
 
 .clock-container {
     background-color: var(--primary-light);
@@ -82,7 +82,6 @@ header {
     gap: 10px;
 }
 
-/* Mobile (Grid) */
 @media (max-width: 1024px) {
     .calendar-grid {
         display: flex;
@@ -195,8 +194,6 @@ header {
     color: var(--error-text);
 }
 
-/* Modal Popup */
-
 .modal {
     position: fixed;
     inset: 0;
@@ -257,7 +254,7 @@ header {
 }
 
 
-/* DropDown for multiple events */
+/* eventos */
 
 #eventSelector {
     width: 100%;
@@ -268,11 +265,6 @@ header {
     border-radius: 5px;
     border: 1px solid #CCC;
 }
-
-/* 
-✅ Overlay Button CSS Logic
-
-*/
 
 .day-overlay {
     position: absolute;
@@ -302,3 +294,4 @@ header {
 .overlay-btn:hover {
     background: var(--primary);
 }
+
